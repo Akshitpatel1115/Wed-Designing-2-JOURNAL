@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <product>
+        <id>101</id>
+        <name>Air Jordan 1</name>
+        <brand>Nike</brand>
+        <category>Sneakers</category>
+        <price currency="INR">14999</price>
+        <description>Classic basketball sneakers with premium leather.</description>
+    </product>
+    <product>
+        <id>102</id>
+        <name>Air Jordan 4</name>
+        <brand>Nike</brand>
+        <category>Sneakers</category>
+        <price currency="INR">16999</price>
+        <description>Stylish sneakers designed for performance.</description>
+    </product>
+    <product>
+        <id>103</id>
+        <name>Air Jordan 11</name>
+        <brand>Nike</brand>
+        <category>Sneakers</category>
+        <price currency="INR">18999</price>
+        <description>Iconic basketball sneakers with patent leather finish and comfortable cushioning.</description>
+    </product>
+</catalog>

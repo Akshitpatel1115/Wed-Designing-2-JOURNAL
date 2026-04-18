@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Akshit Patel",
+    "rollNo": 101,
+    "course": "BCA",
+    "semester": 4
+  },
+  {
+    "id": 2,
+    "name": "Vansh Patel",
+    "rollNo": 102,
+    "course": "BCA",
+    "semester": 4
+  },
+  {
+    "id": 3,
+    "name": "Kalp Patel",
+    "rollNo": 103,
+    "course": "BCA",
+    "semester": 4
+  }
+]
