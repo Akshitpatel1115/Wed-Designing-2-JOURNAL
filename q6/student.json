@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Akshit Patel",
+    "semester": 3,
+    "subjects": ["Java", "DBMS", "Web Development"],
+    "contactno": "9876543210",
+    "email": "akshit@gmail.com"
+  },
+  {
+    "id": 2,
+    "name": "Vansh Patel",
+    "semester": 1,
+    "subjects": ["C Programming", "Mathematics", "Computer Fundamentals"],
+    "contactno": "9876543211",
+    "email": "vansh@gmail.com"
+  },
+  {
+    "id": 3,
+    "name": "Kalp Patel",
+    "semester": 2,
+    "subjects": ["Java", "Data Structures", "Web Development"],
+    "contactno": "9876543212",
+    "email": "kalp@gmail.com"
+  },
+  {
+    "id": 4,
+    "name": "Rahul Shah",
+    "semester": 2,
+    "subjects": ["C Programming", "Mathematics", "Operating System"],
+    "contactno": "9123456780",
+    "email": "rahul@gmail.com"
+  },
+  {
+    "id": 5,
+    "name": "Priya Mehta",
+    "semester": 4,
+    "subjects": ["Python", "Data Structures", "Computer Networks"],
+    "contactno": "9988776655",
+    "email": "priya@gmail.com"
+  }
+]
