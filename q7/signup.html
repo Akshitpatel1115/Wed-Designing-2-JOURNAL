@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Movie Booking</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="bg-light d-flex flex-column min-vh-100">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-3 shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">MovieTickets</a>
+        </div>
+    </nav>
+
+    <div class="container flex-grow-1 d-flex align-items-center">
+        <div class="row justify-content-center w-100">
+            <div class="col-md-7 col-lg-6">
+                <div class="card shadow border-0 rounded-4 my-5">
+                    <div class="card-body p-4 p-md-5">
+                        <div class="text-center mb-4">
+                            <h2 class="fw-bold mb-2">Create an Account</h2>
+                            <p class="text-muted">Join us to book tickets easily</p>
+                        </div>
+
+                        <!-- Sign Up Form -->
+                        <form id="signupForm" novalidate>
+                            <div class="mb-3">
+                                <label for="name" class="form-label fw-medium">Full Name</label>
+                                <input type="text" class="form-control form-control-lg bg-light" id="name" name="name"
+                                    placeholder="John Doe">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-medium">Email address</label>
+                                <input type="email" class="form-control form-control-lg bg-light" id="email"
+                                    name="email" placeholder="name@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label fw-medium">Password</label>
+                                <input type="password" class="form-control form-control-lg bg-light" id="password"
+                                    name="password" placeholder="Min. 6 characters">
+                            </div>
+                            <div class="mb-4">
+                                <label for="confirmPassword" class="form-label fw-medium">Confirm Password</label>
+                                <input type="password" class="form-control form-control-lg bg-light"
+                                    id="confirmPassword" name="confirmPassword" placeholder="Match your password">
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg w-100 fw-bold shadow-sm mb-3">Sign Up
+                                Now</button>
+                            <div class="text-center text-muted">
+                                Already have an account? <a href="login.html" class="text-decoration-none fw-bold">Login
+                                    here</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery and Plugins -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

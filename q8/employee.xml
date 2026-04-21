@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+    <employee>
+        <id>1</id>
+        <firstname>Akshit</firstname>
+        <lastname>Patel</lastname>
+        <title>Software Engineer</title>
+        <department>IT</department>
+        <contactno>9876543210</contactno>
+        <email>akshit.patel@example.com</email>
+    </employee>
+    <employee>
+        <id>2</id>
+        <firstname>Kalp</firstname>
+        <lastname>Patel</lastname>
+        <title>HR Manager</title>
+        <department>Human Resources</department>
+        <contactno>9123456780</contactno>
+        <email>kalp.patel@example.com</email>
+    </employee>
+    <employee>
+        <id>3</id>
+        <firstname>Vansh</firstname>
+        <lastname>Patel</lastname>
+        <title>Accountant</title>
+        <department>Finance</department>
+        <contactno>9988776655</contactno>
+        <email>vansh.patel@example.com</email>
+    </employee>
+    <employee>
+        <id>4</id>
+        <firstname>Pooja</firstname>
+        <lastname>Mehta</lastname>
+        <title>Marketing Executive</title>
+        <department>Marketing</department>
+        <contactno>9012345678</contactno>
+        <email>pooja.mehta@example.com</email>
+    </employee>
+</employees>

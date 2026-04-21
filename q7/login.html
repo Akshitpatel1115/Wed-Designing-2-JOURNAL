@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Movie Booking</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="bg-light d-flex flex-column min-vh-100">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-3 shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">MovieTickets</a>
+        </div>
+    </nav>
+
+    <div class="container flex-grow-1 d-flex align-items-center">
+        <div class="row justify-content-center w-100">
+            <div class="col-md-6 col-lg-5">
+                <div class="card shadow border-0 rounded-4">
+                    <div class="card-body p-5">
+                        <div class="text-center mb-4">
+                            <h2 class="fw-bold mb-2">Welcome Back</h2>
+                            <p class="text-muted">Login to book your tickets</p>
+                        </div>
+
+                        <!-- Login Error Alert -->
+                        <div id="loginError" class="alert alert-danger d-none py-2" role="alert">
+                            <i class="bi bi-exclamation-circle-fill me-2"></i> Invalid email or password.
+                        </div>
+
+                        <!-- Login Form -->
+                        <form id="loginForm">
+                            <div class="mb-3">
+                                <label for="loginEmail" class="form-label fw-medium">Email address</label>
+                                <input type="email" class="form-control form-control-lg bg-light" id="loginEmail"
+                                    name="loginEmail" placeholder="name@example.com">
+                            </div>
+                            <div class="mb-4">
+                                <label for="loginPassword" class="form-label fw-medium">Password</label>
+                                <input type="password" class="form-control form-control-lg bg-light" id="loginPassword"
+                                    name="loginPassword" placeholder="Your password">
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg w-100 fw-bold mb-3 shadow-sm">Login to
+                                Account</button>
+                            <div class="text-center text-muted">
+                                Don't have an account? <a href="signup.html" class="text-decoration-none fw-bold">Sign
+                                    up</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery and Plugins -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
